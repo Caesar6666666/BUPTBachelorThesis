@@ -15,7 +15,11 @@
 
 % 封面
 \blankmatter
-\includepdf[pages=-]{docs/cover.pdf}  
+\includepdf[pages=-]{docs/cover.pdf}
+
+% 诚信声明
+\blankmatter
+\includepdf[pages=-]{docs/statement.pdf}
 
 % 任务书
 \blankmatter
@@ -23,11 +27,7 @@
 
 % 成绩评定表
 \blankmatter
-\includepdf[pages=-]{docs/scoreTable.pdf}  
-
-% 诚信声明
-\blankmatter
-\includepdf[pages=-]{docs/statement.pdf} 
+\includepdf[pages=-]{docs/scoreTable.pdf}
 
 \input{main.cfg}    % Main items 
 \include{abstract}  % Abstract
@@ -45,7 +45,42 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Main Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\chapter{引言}
+\section{研究背景}
+\section{研究意义}
+\section{研究目标与问题陈述}
+\section{论文结构}
+
+\chapter{理论背景与相关技术}
+\section{扩散模型概述}
+\section{文本生成技术进展}
+\section{bash命令生成的研究现状}
+\section{DiffusSeq模型的结构与特点}
+\section{Classifier-Free Guidance方法}
+\section{本章小结}
+
+\chapter{bash命令生成算法设计}
+\section{bash命令的预处理与编码}
+\section{模型训练策略}
+\section{模型优化与调参方法}
+\section{Classifier-Free Guidance的集成与调整}
+
+\chapter{实验设计与结果分析}
+\section{实验环境与数据集}
+\section{实验设计与评价指标}
+\section{对比实验结果}
+\section{性能分析与讨论}
+\section{模型的准确性与多样性评估}
+
+\chapter{总结与展望}
+\section{论文工作总结}
+\section{未来研究方向与展望}
+
+
 \chapter{基础模块示例}
+\section{研究方法与理论基础}
+\section{扩散模型的理论基础}
+
 
 \section{特殊文本类型}
 \subsection{脚注}

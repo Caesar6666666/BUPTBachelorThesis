@@ -31,5 +31,10 @@
 ## VS Code
 .vscode/
 
+## word
+*.docx
+*.doc
+addition/*
+docs/*
 ## macOS
 .DS_Store
